@@ -56,8 +56,3 @@ pip install -r requirements.txt
 # 3. Launch Streamlit application
 streamlit run app.py
 ```
-
----
-
-## 👨‍🏫 Lecturer / Collaborator Notice
-As instructed by **Mr. Harry Attieku-Boateng**, this project is tracked under Git version control. The lecturer can be invited as a collaborator directly on GitHub.
