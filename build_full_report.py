@@ -67,7 +67,7 @@ def add_header_block():
         ("Student Name:", "Emmanuel Siaw Asante"),
         ("Student ID / Index Number:", "PYT230047"),
         ("Course Lecturer:", "Mr. Harry Attieku-Boateng"),
-        ("GitHub Repository Link:", "https://github.com/wisabuilds/PUIT-Face-Recognition-Ultralytics-YOLO"),
+        ("GitHub Repository Link:", "https://github.com/s47user/PUIT-Face-Recognition-Ultralytics-YOLO"),
         ("Deployed Web Application:", "https://puit-face-recognition-yolo.streamlit.app/"),
         ("Academic Period / Deadline:", "First Semester, Academic Year 2026/2027 | Deadline: November 30th")
     ]

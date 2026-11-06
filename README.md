@@ -47,7 +47,7 @@ The system utilizes the state-of-the-art **Ultralytics YOLO** (YOLOv8) framework
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/wisabuilds/PUIT-Face-Recognition-Ultralytics-YOLO.git
+git clone https://github.com/s47user/PUIT-Face-Recognition-Ultralytics-YOLO.git
 cd PUIT-Face-Recognition-Ultralytics-YOLO
 
 # 2. Install dependencies
