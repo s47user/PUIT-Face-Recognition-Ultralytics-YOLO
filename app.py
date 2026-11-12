@@ -34,49 +34,30 @@ st.markdown("""
         background-color: #F8FAFC;
     }
 
-    /* Top Brand Hero Banner */
-    .hero-banner {
-        background: #0F172A;
-        border: 1px solid #1E293B;
-        border-radius: 12px;
-        padding: 24px 28px;
+    /* Page Header */
+    .page-header {
+        border-bottom: 1px solid #E2E8F0;
+        padding-bottom: 16px;
         margin-bottom: 24px;
-        color: #FFFFFF;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
     }
-    .hero-banner h1 {
-        font-size: 1.65rem;
+    .page-breadcrumbs {
+        font-size: 0.82rem;
+        font-weight: 500;
+        color: #64748B;
+        margin-bottom: 4px;
+    }
+    .page-title {
+        font-size: 1.6rem;
         font-weight: 700;
         letter-spacing: -0.02em;
         margin: 0 0 6px 0;
-        color: #FFFFFF;
+        color: #0F172A;
     }
-    .hero-banner p {
-        font-size: 0.92rem;
-        color: #94A3B8;
+    .page-subtitle {
+        font-size: 0.90rem;
+        color: #64748B;
         margin: 0;
         line-height: 1.5;
-    }
-    .hero-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin-top: 14px;
-    }
-    .hero-tag {
-        font-size: 0.76rem;
-        font-weight: 600;
-        padding: 3px 10px;
-        border-radius: 6px;
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        color: #E2E8F0;
-        font-family: 'JetBrains Mono', monospace;
-    }
-    .hero-tag-live {
-        background: rgba(16, 185, 129, 0.15);
-        border-color: rgba(16, 185, 129, 0.35);
-        color: #34D399;
     }
 
     /* Metric Cards */
@@ -183,15 +164,10 @@ with st.sidebar:
 # -----------------------------------------------------------------------------
 if menu == "🎥 Real-Time Face Inference":
     st.markdown("""
-    <div class="hero-banner">
-        <h1>👤 Ultralytics YOLO Real-Time Face Detection & Recognition</h1>
-        <p>Single-stage anchor-free deep convolutional inference pipeline running at 58 FPS with CIoU localization and BCE identity attribution.</p>
-        <div class="hero-tags">
-            <span class="hero-tag hero-tag-live">● Engine Active (CUDA 12.x / PyTorch)</span>
-            <span class="hero-tag">YOLOv8 Architecture</span>
-            <span class="hero-tag">58 FPS Latency (14.2 ms)</span>
-            <span class="hero-tag">Decoupled Anchor-Free Head</span>
-        </div>
+    <div class="page-header">
+        <div class="page-breadcrumbs">Ultralytics YOLO / Model Inference</div>
+        <h1 class="page-title">Real-Time Face Detection & Recognition</h1>
+        <p class="page-subtitle">Single-stage anchor-free deep convolutional inference pipeline running at 58 FPS with CIoU localization and BCE identity attribution.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -267,9 +243,10 @@ if menu == "🎥 Real-Time Face Inference":
 # -----------------------------------------------------------------------------
 elif menu == "📊 Empirical Validation & Metrics":
     st.markdown("""
-    <div class="hero-banner">
-        <h1>📊 Empirical Validation, Training Convergence & Error Audits</h1>
-        <p>Quantitative validation metrics evaluated on 280 held-out validation images under varying poses, lighting, and occlusions.</p>
+    <div class="page-header">
+        <div class="page-breadcrumbs">Ultralytics YOLO / Validation & Benchmarks</div>
+        <h1 class="page-title">Empirical Validation, Training Convergence & Error Audits</h1>
+        <p class="page-subtitle">Quantitative validation metrics evaluated on 280 held-out validation images under varying poses, lighting, and occlusions.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -332,9 +309,10 @@ elif menu == "📊 Empirical Validation & Metrics":
 # -----------------------------------------------------------------------------
 elif menu == "🧠 Neural Network Architecture":
     st.markdown("""
-    <div class="hero-banner">
-        <h1>🧠 Ultralytics YOLOv8 Deep Convolutional Neural Architecture</h1>
-        <p>Decoupled anchor-free multi-scale feature pyramid network optimized for real-time edge facial recognition.</p>
+    <div class="page-header">
+        <div class="page-breadcrumbs">Ultralytics YOLO / Model Topology</div>
+        <h1 class="page-title">Neural Network Architecture & Feature Pyramid</h1>
+        <p class="page-subtitle">Decoupled anchor-free multi-scale feature pyramid network optimized for real-time edge facial recognition.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -370,9 +348,10 @@ elif menu == "🧠 Neural Network Architecture":
 # -----------------------------------------------------------------------------
 elif menu == "📑 Academic Brief & Specifications":
     st.markdown("""
-    <div class="hero-banner">
-        <h1>📑 Academic Assessment & Research Specifications</h1>
-        <p>Official coursework submission metadata, research parameters, and Turnitin academic integrity compliance.</p>
+    <div class="page-header">
+        <div class="page-breadcrumbs">Ultralytics YOLO / Coursework Specifications</div>
+        <h1 class="page-title">Academic Brief & Research Specifications</h1>
+        <p class="page-subtitle">Official coursework submission metadata, research parameters, and Turnitin academic integrity compliance.</p>
     </div>
     """, unsafe_allow_html=True)
 
